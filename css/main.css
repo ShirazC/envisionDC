@@ -3029,9 +3029,9 @@
 
 /* Banner */
 
-	/*#banner {
+	#banner {
 		padding: 10em 0 4.75em 0 ;
-	}*/
+	}
 
   @override
   #banner .inner .fullscreen-bg__video {
