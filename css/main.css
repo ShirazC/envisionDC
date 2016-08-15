@@ -3032,14 +3032,21 @@
 	#banner {
 		padding: 10em 0 4.75em 0 ;
 	}
-
+	.fullscreen-bg {
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		overflow: hidden;
+		z-index: -100;
+	}
 .fullscreen-bg__video {
 		margin: none;
-    position: absolute;
     top: 0 !important;
     left: 0 !important;
-    width: 100vh;
-    height: 100vw;
+    width: 100vw;
+    height: 100vh;
   }
 
 		#banner .inner {
