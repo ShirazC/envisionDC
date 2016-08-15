@@ -3042,6 +3042,7 @@
 		z-index: -100;
 	}
 .fullscreen-bg__video {
+		position: absolute;
 		margin: none;
     top: 0 !important;
     left: 0 !important;
