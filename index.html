@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <audio controls loop onloadeddata="audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 6500)">
+  <audio controls mute loop onloadeddata="audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 6500)">
 <source src="audio/lit_af.mp3" type="audio/mpeg">
 
 </audio>
@@ -26,6 +26,7 @@
           <source src="video/DC_view.mp4" type="video/mp4">
           <!-- <source src="video/big_buck_bunny.ogv" type="video/ogg"> -->
         </video>
+
       </div>
     </section>
     <section id="first">
@@ -43,7 +44,7 @@
 
 
 
-
+<script src="assets/js/index.js"></script>
 </body>
 
 </html>
